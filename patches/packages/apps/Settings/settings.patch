@@ -19,7 +19,7 @@ index 3e93d41..a352391 100644
      <!-- Device Info screen. Used for a status item's value when the proper value is not known -->
      <string name="device_info_default">Unknown</string>
 +    <!-- Device Info screen. Used for a status item's value when the proper value is not known -->
-+    <string name="author_info_default">WisniaPL</string>
++    <string name="author_info_default">DarkAbhi</string>
      <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
      <plurals name="show_dev_countdown">
          <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from being a developer.</item>
@@ -45,7 +45,7 @@ index f756b26..0f87d0b 100644
 +                android:title="@string/author_info"
 +                android:summary="@string/author_info_default">
 +                <intent android:action="android.intent.action.VIEW"
-+                        android:data="https://www.paypal.me/Wisniabdg" />
++                        android:data="http://abhishekan.me" />
 +        </PreferenceScreen>
 +
          <!-- Device FCC equipment id -->
