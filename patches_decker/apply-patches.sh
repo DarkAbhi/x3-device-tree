@@ -8,12 +8,6 @@ cd ../..
 cd bionic
 git apply -v ../device/LeTV/x500/patches_decker/0002-Apply-LIBC-version-to-__pthread_gettid.patch
 cd ..
-cd system/sepolicy
-git apply -v ../../device/LeTV/x500/patches_decker/0003-Revert-back-to-policy-version-29.patch
-cd ../..
-cd packages/apps/Settings
-git apply -v ../../../device/LeTV/x500/patches_decker/0005-add-author-info-in-device-info.patch
-cd ../../..
 cd frameworks/av
 git apply -v ../../device/LeTV/x500/patches_decker/0006-fix-access-wvm-to-ReadOptions.patch
 git apply -v ../../device/LeTV/x500/patches_decker/0007-Disable-usage-of-get_capture_position.patch
