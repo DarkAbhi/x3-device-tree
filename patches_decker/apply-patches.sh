@@ -11,8 +11,6 @@ cd ..
 cd frameworks/av
 git apply -v ../../device/LeTV/x500/patches_decker/0006-fix-access-wvm-to-ReadOptions.patch
 git apply -v ../../device/LeTV/x500/patches_decker/0007-Disable-usage-of-get_capture_position.patch
-git apply -v ../../device/LeTV/x500/patches_decker/0008-Partial-Revert-Camera1-API-Support-SW-encoders-for-n.patch
-git apply -v ../../device/LeTV/x500/patches_decker/0009-add-mtk-color-format-support.patch
 cd ../..
 cd system/netd
 git apply -v ../../device/LeTV/x500/patches_decker/0010-wifi-tethering-fix.patch
