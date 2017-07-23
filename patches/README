@@ -1,5 +1,9 @@
-This is patch directory
+##PATCH DIRECTORY
 
-cd WORKING_DIR
+These Patches apply:
+1) The Build Author to the settings apps. In the About Phone Section. [packages/apps/Settings]
+2) Enable adbd always [system/core/rootdir]
+
+cd WORKING_DIR(Your ROM source Folder)
 sh device/LeTV/x500/patches/install.sh
 sh device/LeTV/x500/patches/uninstall.sh
