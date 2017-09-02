@@ -63,12 +63,13 @@ LineageOS14 http://forum.le.com/in/index.php?threads/lineageos-14-1-leeco-1s.187
 RR http://forum.le.com/in/index.php?threads/resurrection-remix-5-8-2-beta-android-7-1-1.18768/
 
 ## THANKS TO:
-
+DarkAbhi
+SscSPs
+WisniaPL
 DeckerSU
-
 M.A.D
-
 Bule
-
 Danielhk
+PokeTrainerRed
+
 
