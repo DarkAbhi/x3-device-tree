@@ -2,7 +2,7 @@ echo $1
 rootdirectory="$PWD"
 # ---------------------------------
 
-dirs="bionic system/sepolicy frameworks/base frameworks/av frameworks/native frameworks/opt/telephony frameworks/opt/net/ims hardware/libhardware packages/services/Telecomm packages/services/Telephony system/netd system/core system/bt system/sepolicy packages/apps/Settings"
+dirs="bionic frameworks/base frameworks/av system/netd system/core packages/apps/Settings"
 
 for dir in $dirs ; do
 	cd $rootdirectory
