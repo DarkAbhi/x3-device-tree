@@ -1,9 +1,9 @@
 # Leeco 1s - LineageOS 14.1
-==============
+
 
 This branch is device for building of the LineageOS 14.1.
 
----
+
 
 # About Device
 
@@ -50,19 +50,30 @@ Camera  | Primary: 13 MP, Secondary: 5 MP
 ## Broken/Bugs
 * Camera
 * Flashlight (statusbar and camera)
-* ?????
+* Few small things gone unnoticed
 
-## DONATE
+# How to build.
+Unless you know what you are doing, You'd need to follow these simple steps in order to build any of the supported using this tree.
 
-https://www.paypal.me/Wisniabdg
+## Steps:
+* init the repo of whichever rom you want to build.
+	$ cd .repo/local_manifests
+	Get your device,vendor and kernel tree by giving the download path in roomservice.xml
+  
+That's it.
+Now you can proceed to build the rom in normal way.
+for that, just follow these simple commands in the terminal,
+from root of your source(the place where you did the repo init):
+* . build/envsetup.sh
+* breakfast X3
+* make bacon -j8 #(or it can be different for different ROMs)
 
-## DOWNLOADS
+This will build the rom and the generated zip will be in out/target/product/x3 directory.
 
-LineageOS14 http://forum.le.com/in/index.php?threads/lineageos-14-1-leeco-1s.18742/
-
-RR http://forum.le.com/in/index.php?threads/resurrection-remix-5-8-2-beta-android-7-1-1.18768/
 
 ## THANKS TO:
+I would like to Thank the following people
+
 DarkAbhi
 SscSPs
 WisniaPL
@@ -71,5 +82,3 @@ M.A.D
 Bule
 Danielhk
 PokeTrainerRed
-
-
