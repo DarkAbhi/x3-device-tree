@@ -230,6 +230,7 @@
  <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
  <!-- If enabled, capacitive keys will only light up when user presses the keys.
  Otherwise, the buttons will light up whenever the user interacts with the device. -->
+ <add-resource type="bool" name="config_buttonLightOnKeypressOnly"></add-resource>
  <bool name="config_buttonLightOnKeypressOnly">true</bool>
 
 </resources>
