@@ -8,7 +8,7 @@ import init.mal.rc
 import init.trustonic.rc
 
 import init.ssd.rc
-import init.modem.rc	
+import init.modem.rc
 
 on late-fs
     # boot time fs tune
@@ -189,8 +189,7 @@ on post-fs-data
     mkdir /data/gps_mnl 0771 gps system
     mkdir /data/misc/gps 0770 gps system
 
-    # NFC
-    mkdir /data/nfc_socket 0771 nfc radio
+
 
 # -----------------------
 # Add by MTK
@@ -521,7 +520,7 @@ chmod 0660 /sys/devices/platform/mtk_disp_mgr.0/rgb
     chown system camera /dev/LC898122OFILMAF
     chown system camera /dev/BU6429AF
     chown system camera /dev/LC898217AF
-	
+
 	# IO Scheduler
     chown system system /sys/block/mmcblk0/queue/scheduler
     chmod 0660 /sys/block/mmcblk0/queue/scheduler
@@ -591,9 +590,9 @@ chmod 0660 /sys/devices/platform/mtk_disp_mgr.0/rgb
     # Recycle stuffs
     exec /system/bin/rm -f /cache/.ipoh.img
 
-	#Thermal	
-	mkdir /data/.tp/ 0775 system system 
-	
+	#Thermal
+	mkdir /data/.tp/ 0775 system system
+
 # End of adding by MTK drivers
 # -----------------------
 
@@ -620,7 +619,7 @@ on boot
 	  chmod 0660 /sys/power/autosleep
     chown system radio /sys/class/leds/lcd-backlight/brightness
     chmod 0664 /sys/class/leds/lcd-backlight/brightness
-  
+
 
 
     chown system system /sys/devices/system/cpu/cpufreq/interactive/timer_rate
@@ -653,7 +652,7 @@ on boot
     chmod 0660 /d/ged/hal/custom_boost_gpu_freq
     chown system system /d/ged/hal/custom_upbound_gpu_freq
     chmod 0660 /d/ged/hal/custom_upbound_gpu_freq
-        
+
 # Smartbook Handler Framework
     chown system system /sys/power/sb_state
     chmod 0660 /sys/power/sb_state
@@ -791,7 +790,7 @@ on property:vold.decrypt=trigger_restart_framework
     start msensord
     start permission_check
     write /proc/bootprof "trigger_restart_framework"
-		
+
 on property:vold.decrypt=trigger_shutdown_framework
     start stop_modem
     start swapoff_action
@@ -1412,4 +1411,3 @@ service guiext-server /system/bin/guiext-server
 
 service kpoc_charger /system/bin/kpoc_charger
     class charger
-
