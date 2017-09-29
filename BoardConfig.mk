@@ -75,7 +75,6 @@ BOARD_MKBOOTIMG_ARGS := \
 #prebuilt
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/kernel
 #source
-TARGET_KERNEL_SOURCE := kernel/LeTV/x500
 TARGET_KERNEL_SOURCE := kernel/LeEco/X3
 TARGET_KERNEL_CONFIG := x500_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
