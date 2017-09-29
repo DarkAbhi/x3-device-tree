@@ -1,6 +1,6 @@
 From: WisniaPL
 Date: Fri, 17 Mar 2017 18:24:10 +0300
-Subject: [PATCH] Fix camera error for LeEcoX3
+Subject: [PATCH] Fix camera error for LeEco X3
 project bionic/
 diff --git a/libc/Android.mk b/libc/Android.mk
 index 94f7ce6..1d663af 100644
