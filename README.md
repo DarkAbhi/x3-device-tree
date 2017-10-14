@@ -1,7 +1,7 @@
-# LeEco 1s - LineageOS 14.1
+# LeEco 1s - LineageOS 15
 
 
-This branch is for building Resurrection Remix 5.8.4 & LineageOS 14.1
+This branch is for building LineageOS 15
 
 
 
@@ -29,52 +29,15 @@ Camera  | Primary: 13 MP, Secondary: 5 MP
 # Build Information
 
 ## Working
-* Adjustable brightness
-* Audio
-* Auto brightness
-* MTP and Mass Storage modes
-* Vibration
-* Rotation
-* RIL
-* Video
-* Gallery
-* Fingerprint
-* Mic
-* Wi-Fi
-* Bluetooth
-* Internet
-* GPS
-* IR
-* Audio over BT
-* Hotspot
+* Don't Know
 
 ## Broken/Bugs
-* Camera FC after some time implies Flash Stops too.
-* Few small things gone unnoticed.
-
-# How to build.
-Unless you know what you are doing, You'd need to follow these simple steps in order to build any of the supported using this tree.
-
-## Steps:
-* init the repo of Resurrection Remix or LineageOS rom you want to build.
-*	$ cd .repo/local_manifests
-*	Get your device,vendor and kernel tree by giving the download path in roomservice.xml
-
-That's it.
-Now you can proceed to build the rom in normal way.
-for that, just follow these simple commands in the terminal,
-from root of your source(the place where you did the repo init):
-* . build/envsetup.sh
-* breakfast X3
-* make bacon -j8
-
-This will build the rom and the generated zip will be in out/target/product/x3 directory.
+* Boot it.
 
 
 ## THANKS TO:
 I would like to Thank the following people
 
-* DarkAbhi
 * SscSPs
 * WisniaPL
 * DeckerSU
