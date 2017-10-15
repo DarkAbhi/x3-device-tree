@@ -133,18 +133,18 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/mediacodec.policy:system/vendor/etc/seccomp_policy/mediacodec.policy 
 	
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/ramdisk/enableswap.sh:root/enableswap.sh \
-    $(LOCAL_PATH)/ramdisk/factory_init.project.rc:root/factory_init.project.rc \
-    $(LOCAL_PATH)/ramdisk/factory_init.rc:root/factory_init.rc \
-    $(LOCAL_PATH)/ramdisk/fstab.mt6795:root/fstab.mt6795 \
-    $(LOCAL_PATH)/ramdisk/init.modem.rc:root/init.modem.rc \
-    $(LOCAL_PATH)/ramdisk/init.mt6795.rc:root/init.mt6795.rc \
-    $(LOCAL_PATH)/ramdisk/init.mt6795.usb.rc:root/init.mt6795.usb.rc \
-    $(LOCAL_PATH)/ramdisk/init.project.rc:root/init.project.rc \
-    $(LOCAL_PATH)/ramdisk/ueventd.mt6795.rc:root/ueventd.mt6795.rc \
-    $(LOCAL_PATH)/ramdisk/init.mal.rc:root/init.mal.rc \
-    $(LOCAL_PATH)/ramdisk/init.usb.configfs:root/init.usb.configfs.rc \
-    $(LOCAL_PATH)/ramdisk/init.trustonic.rc:root/init.trustonic.rc \
+    $(LOCAL_PATH)/rootdir/enableswap.sh:root/enableswap.sh \
+    $(LOCAL_PATH)/rootdir/factory_init.project.rc:root/factory_init.project.rc \
+    $(LOCAL_PATH)/rootdir/factory_init.rc:root/factory_init.rc \
+    $(LOCAL_PATH)/rootdir/fstab.mt6795:root/fstab.mt6795 \
+    $(LOCAL_PATH)/rootdir/init.modem.rc:root/init.modem.rc \
+    $(LOCAL_PATH)/rootdir/init.mt6795.rc:root/init.mt6795.rc \
+    $(LOCAL_PATH)/rootdir/init.mt6795.usb.rc:root/init.mt6795.usb.rc \
+    $(LOCAL_PATH)/rootdir/init.project.rc:root/init.project.rc \
+    $(LOCAL_PATH)/rootdir/ueventd.mt6795.rc:root/ueventd.mt6795.rc \
+    $(LOCAL_PATH)/rootdir/init.mal.rc:root/init.mal.rc \
+    $(LOCAL_PATH)/rootdir/init.usb.configfs:root/init.usb.configfs.rc \
+    $(LOCAL_PATH)/rootdir/init.trustonic.rc:root/init.trustonic.rc \
 
 
 PRODUCT_COPY_FILES += \

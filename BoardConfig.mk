@@ -151,7 +151,7 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 # Uncomment RECOVERY_VARIANT to build twrp
 #RECOVERY_VARIANT=twrp
 
-TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/ramdisk/recovery.fstab
+TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/recovery.fstab
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun/file
 
 BOARD_HAS_NO_SELECT_BUTTON := true
