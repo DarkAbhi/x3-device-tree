@@ -1,4 +1,4 @@
-# Leeco 1s -  ResurrectionRemix MM
+# LeEco Le 1S -  ResurrectionRemix Marshmallow
 ==============
 
 This branch is device for building of the ResurrectionRemix MM.
@@ -52,11 +52,10 @@ Camera  | Primary: 13 MP, Secondary: 5 MP
  * IR
 
 ## Broken/Bugs
- * Audio over Bluetooth (music, calls .etc)
  * Fast charging
  
 # Thanks to:
  
- * Deepflex
+ * WisniaPL
  * Bule
  * Droidthug
